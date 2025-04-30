@@ -11,7 +11,7 @@ import Option from "@mui/joy/Option";
 export default function Home() {
   return (
     <>
-      <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }}>
         <Stepper />
         <Sheet
           variant="soft"
@@ -23,11 +23,11 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={4}>
               <Typography level="body-lg">Electricity</Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -35,18 +35,18 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">kWh</Option>
               </Select>
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
-              <Typography level="body-lg">Natural Gas</Typography>
+            <Grid xs={4}>
+              <Typography level="body-lg"><span className="nowrap">Natural Gas</span></Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -54,7 +54,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">kWh</Option>
                 <Option value="2">kg</Option>
@@ -67,11 +67,11 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={4}>
               <Typography level="body-lg">Biomass</Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -79,7 +79,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="2" variant="outlined">
                 <Option value="1">kWh</Option>
                 <Option value="2">kg</Option>
@@ -87,11 +87,11 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={4}>
               <Typography level="body-lg">Coal</Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -99,7 +99,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="2" variant="outlined">
                 <Option value="1">kWh</Option>
                 <Option value="2">kg</Option>
@@ -107,11 +107,11 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
-              <Typography level="body-lg">Heating Oil</Typography>
+            <Grid xs={4}>
+              <Typography level="body-lg"><span className="nowrap">Heating Oil</span></Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -119,7 +119,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="3" variant="outlined">
                 <Option value="1">kWh</Option>
                 <Option value="2">kg</Option>
@@ -128,11 +128,11 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={4}>
               <Typography level="body-lg">LPG</Typography>
             </Grid>
 
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Textarea
                 placeholder="Amount"
                 name="Outlined"
@@ -140,7 +140,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={1}>
+            <Grid xs={4}>
               <Select defaultValue="2" variant="outlined">
                 <Option value="1">kWh</Option>
                 <Option value="2">kg</Option>

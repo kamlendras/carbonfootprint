@@ -19,7 +19,7 @@ export default function Home() {
   const [currency, setCurrency] = React.useState("dollar");
   return (
     <>
-      <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }}>
         <Stepper />
         <Sheet
           variant="soft"
@@ -31,7 +31,7 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Eating Out</FormLabel>
                 <Input
@@ -63,7 +63,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Car Maintenance </FormLabel>
                 <Input
@@ -95,7 +95,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Clothing</FormLabel>
                 <Input
@@ -127,10 +127,8 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-          </Grid>
-
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+         
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Furniture</FormLabel>
                 <Input
@@ -162,7 +160,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Domestic Water </FormLabel>
                 <Input
@@ -194,7 +192,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Telephone & Internet </FormLabel>
                 <Input
@@ -226,9 +224,8 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-          </Grid>
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+      
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Computers & Electronics</FormLabel>
                 <Input
@@ -260,7 +257,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Electrical Appliances </FormLabel>
                 <Input
@@ -292,7 +289,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Postage & Couriers</FormLabel>
                 <Input
@@ -324,9 +321,8 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-          </Grid>
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+       
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Magazines & Books</FormLabel>
                 <Input
@@ -358,7 +354,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Stationery </FormLabel>
                 <Input
@@ -390,7 +386,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Cleaning Products</FormLabel>
                 <Input
@@ -422,9 +418,8 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-          </Grid>
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+   
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Hair & Self-care </FormLabel>
                 <Input
@@ -456,7 +451,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Pet Food</FormLabel>
                 <Input
@@ -488,7 +483,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Hotel Stays</FormLabel>
                 <Input
@@ -520,9 +515,8 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-          </Grid>
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+     
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Insurance </FormLabel>
                 <Input
@@ -554,7 +548,7 @@ export default function Home() {
                 />
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Other Legal Services</FormLabel>
                 <Input

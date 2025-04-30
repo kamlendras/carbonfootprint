@@ -14,7 +14,7 @@ import DirectionsBoatIcon from "@mui/icons-material/DirectionsBoat";
 export default function Home() {
   return (
     <>
-      <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{ p: 2, borderRadius: "16px" }}>
         <Stepper />
         <Sheet
           variant="soft"
@@ -26,14 +26,14 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Typography level="body-lg">
-                <DirectionsBusIcon />
-                Bus/Coach
+              <span className="nowrap"><DirectionsBusIcon />
+                Bus/Coach</span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -41,7 +41,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Averange local bus</Option>
                 <Option value="2">Coach</Option>
@@ -50,13 +50,13 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Typography level="body-lg">
-                <DirectionsTransitIcon /> Train
+              <span className="nowrap">    <DirectionsTransitIcon /> Train</span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -64,7 +64,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">National rail</Option>
                 <Option value="2">Light rail and tram</Option>
@@ -74,13 +74,13 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Typography level="body-lg">
-                <DirectionsBoatIcon /> Ferry{" "}
+              <span className="nowrap">        <DirectionsBoatIcon /> Ferry{" "}</span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -88,7 +88,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={12} md={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Foot passenger</Option>
                 <Option value="2">Car passenger</Option>

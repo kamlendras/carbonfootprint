@@ -13,7 +13,7 @@ import DirectionsBikeIcon from "@mui/icons-material/DirectionsBike";
 export default function Home() {
   return (
     <>
-      <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{ p: 2, borderRadius: "16px" }}>
         <Stepper />
         <Sheet
           variant="soft"
@@ -25,13 +25,16 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12}>
               <Typography level="body-lg">
-                <DirectionsCarIcon /> Car 1
+                <span className="nowrap">
+                  {" "}
+                  <DirectionsCarIcon /> Car 1
+                </span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} sm={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -39,14 +42,14 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Small car</Option>
                 <Option value="2">Medium car</Option>
                 <Option value="3">Large car</Option>
               </Select>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Petrol</Option>
                 <Option value="2">Diesel</Option>
@@ -56,13 +59,16 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12}>
               <Typography level="body-lg">
-                <DirectionsCarIcon /> Car 2
+                <span className="nowrap">
+                  {" "}
+                  <DirectionsCarIcon /> Car 2
+                </span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} sm={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -70,14 +76,14 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Small car</Option>
                 <Option value="2">Medium car</Option>
                 <Option value="3">Large car</Option>
               </Select>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Petrol</Option>
                 <Option value="2">Diesel</Option>
@@ -87,13 +93,16 @@ export default function Home() {
             </Grid>
           </Grid>
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid xs={12}>
               <Typography level="body-lg">
-                <DirectionsBikeIcon /> Motorcycle
+                <span className="nowrap">
+                  {" "}
+                  <DirectionsBikeIcon /> Motorcycle
+                </span>
               </Typography>
             </Grid>
 
-            <Grid xs={2}>
+            <Grid xs={12} sm={4}>
               <Textarea
                 placeholder="Distance (miles)"
                 name="Outlined"
@@ -101,7 +110,7 @@ export default function Home() {
                 variant="outlined"
               />
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="1" variant="outlined">
                 <Option value="1">Averange motorcycle</Option>
                 <Option value="2">Small motorcycle</Option>
@@ -109,7 +118,7 @@ export default function Home() {
                 <Option value="4">Large motorcycle</Option>
               </Select>
             </Grid>
-            <Grid xs={2}>
+            <Grid xs={6} sm={4}>
               <Select defaultValue="3" variant="outlined">
                 <Option value="1">Petrol</Option>
                 <Option value="2">Diesel</Option>

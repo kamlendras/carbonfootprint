@@ -15,7 +15,7 @@ import FormLabel from "@mui/joy/FormLabel";
 export default function Home() {
   return (
     <>
-      <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }}>
         <Stepper />
         <Sheet
           variant="soft"
@@ -27,7 +27,7 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> High meat-eater</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -42,7 +42,7 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Medium meat-eater</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -57,7 +57,7 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Low meat-eater</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -72,10 +72,8 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-          </Grid>
-
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+  
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Fish eater</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -90,7 +88,7 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> Vegetarian</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -105,7 +103,7 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel>Vegan</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -120,10 +118,8 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-          </Grid>
-
-          <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-            <Grid xs={2}>
+     
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> For how many people?</FormLabel>
                 <Select defaultValue="1" variant="outlined">
@@ -140,7 +136,7 @@ export default function Home() {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid xs={2}>
+            <Grid  xs={12} sm={6} md={4}>
               <FormControl>
                 <FormLabel> For how long?</FormLabel>
                 <Select defaultValue="14" variant="outlined">

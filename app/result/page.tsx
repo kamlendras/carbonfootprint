@@ -4,7 +4,7 @@ import Button from "@mui/joy/Button";
 import Link from "next/link";
 export default function Home() {
   return (
-    <Sheet variant="soft" sx={{ m: 10, p: 2, borderRadius: "16px" }}>
+    <Sheet variant="soft" sx={{ p: 2, borderRadius: "16px" }}>
       <Stepper />
       <Sheet>
         {" "}
