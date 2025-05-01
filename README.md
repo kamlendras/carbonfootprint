@@ -6,9 +6,7 @@
 
 A web-based tool to estimate your carbon footprint based on daily activities, travel, energy consumption, and more. Designed to raise awareness about environmental impact and encourage sustainable choices.
 
-**Live Demo**: [Try it here!](https://carbonfootprint-nine.vercel.app/) 
-
-https://raw.githubusercontent.com/kamlendras/carbonfootprint-calculater/refs/heads/main/preview.mp4
+**Live Demo**: [Try it here!](https://carbonfootprintapp.vercel.app) 
 ---
 
 ## Table of Contents
