@@ -10,6 +10,7 @@ import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import DirectionsBikeIcon from "@mui/icons-material/DirectionsBike";
+import Navigation from "../components/private_transport/navigation"
 export default function Home() {
   return (
     <>
@@ -128,12 +129,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Sheet>
-        <Sheet>
-          {" "}
-          <Link href="/public_transport">
-            <Button size="lg">Next</Button>
-          </Link>{" "}
-        </Sheet>
+  <Navigation/>
       </Sheet>
     </>
   );

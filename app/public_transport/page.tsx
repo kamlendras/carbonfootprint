@@ -11,6 +11,7 @@ import Option from "@mui/joy/Option";
 import DirectionsBusIcon from "@mui/icons-material/DirectionsBus";
 import DirectionsTransitIcon from "@mui/icons-material/DirectionsTransit";
 import DirectionsBoatIcon from "@mui/icons-material/DirectionsBoat";
+import Navigation from "../components/public_transport/navigation"
 export default function Home() {
   return (
     <>
@@ -96,12 +97,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Sheet>
-        <Sheet>
-          {" "}
-          <Link href="/flights">
-            <Button size="lg">Next</Button>
-          </Link>{" "}
-        </Sheet>
+  <Navigation/>
       </Sheet>
     </>
   );

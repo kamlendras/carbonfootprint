@@ -8,6 +8,8 @@ import Typography from "@mui/joy/Typography";
 import Textarea from "@mui/joy/Textarea";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import Navigation from "./components/home/navigation"
 export default function Home() {
   return (
     <>
@@ -149,12 +151,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Sheet>
-        <Sheet>
-          {" "}
-          <Link href="/private_transport">
-            <Button size="lg">Next</Button>
-          </Link>{" "}
-        </Sheet>
+       <Navigation/>
       </Sheet>
     </>
   );

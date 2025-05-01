@@ -11,6 +11,7 @@ import Option from "@mui/joy/Option";
 import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import FormControl from "@mui/joy/FormControl";
 import FormLabel from "@mui/joy/FormLabel";
+import Navigation from "../components/flights/navigation"
 
 export default function Home() {
   return (
@@ -97,12 +98,7 @@ export default function Home() {
           </Grid>
        
         </Sheet>
-        <Sheet>
-          {" "}
-          <Link href="/food">
-            <Button size="lg">Next</Button>
-          </Link>{" "}
-        </Sheet>
+    <Navigation/>
       </Sheet>
     </>
   );

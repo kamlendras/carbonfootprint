@@ -14,6 +14,7 @@ import FormControl from "@mui/joy/FormControl";
 import FormLabel from "@mui/joy/FormLabel";
 import Divider from "@mui/joy/Divider";
 import Input from "@mui/joy/Input";
+import Navigation from "../components/expenditure/navigation"
 
 export default function Home() {
   const [currency, setCurrency] = React.useState("dollar");
@@ -582,12 +583,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Sheet>
-        <Sheet>
-          {" "}
-          <Link href="/result">
-            <Button size="lg">Next</Button>
-          </Link>{" "}
-        </Sheet>
+        <Navigation/>
       </Sheet>
     </>
   );
