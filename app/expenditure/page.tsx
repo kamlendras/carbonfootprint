@@ -20,7 +20,7 @@ export default function Home() {
   const [currency, setCurrency] = React.useState("dollar");
   return (
     <>
-      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }} className="sheet">
         <Stepper />
         <Sheet
           variant="soft"

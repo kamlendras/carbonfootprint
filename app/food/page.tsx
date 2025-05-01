@@ -16,7 +16,7 @@ import Navigation from "../components/food/navigation"
 export default function Home() {
   return (
     <>
-      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }}>
+      <Sheet variant="soft" sx={{  p: 2, borderRadius: "16px" }} className="sheet">
         <Stepper />
         <Sheet
           variant="soft"

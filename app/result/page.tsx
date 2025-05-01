@@ -7,7 +7,7 @@ import Stack from '@mui/joy/Stack';
 import Navigation from "../components/result/navigation"
 export default function Home() {
   return (
-    <Sheet variant="soft" sx={{ p: 2, borderRadius: "16px" }}>
+    <Sheet variant="soft" sx={{ p: 2, borderRadius: "16px" }} className="sheet">
       <Stepper />
       
       <Stack

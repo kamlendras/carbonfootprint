@@ -41,7 +41,7 @@ export default function Header() {
             sx={{
               mt: 1,
               ml: 5,
-              width: 227,
+              width: 60,
               height: 60,
               backgroundSize: "contain",
               backgroundImage: (theme) =>
