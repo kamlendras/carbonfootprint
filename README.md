@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carbon Footprint Calculator 🌱
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Issues](https://img.shields.io/github/issues/kamlendras/carbonfootprint-calculater)](https://github.com/kamlendras/carbonfootprint-calculater/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/kamlendras/carbonfootprint-calculater)](https://github.com/kamlendras/carbonfootprint-calculater/stargazers)
 
-First, run the development server:
+A web-based tool to estimate your carbon footprint based on daily activities, travel, energy consumption, and more. Designed to raise awareness about environmental impact and encourage sustainable choices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Live Demo**: [Try it here!](https://carbonfootprint-nine.vercel.app/) 
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features ✨
+- Calculate CO₂ emissions for:
+  - 🚗 Transportation (car, flight, public transit)
+  - ⚡ Household energy consumption (electricity, heating)
+  - 🛒 Lifestyle choices (diet, waste)
+- Interactive input forms with dynamic validation.
+- Visualize results with charts and comparisons to global averages.
+- Save and export reports for future reference.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack 🛠️
+- **Frontend**: Nextjs , Joy UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation 🚀
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kamlendras/carbonfootprint-calculater.git
+   cd carbonfootprint-calculater
+   ```
+2. **Install dependencies**:
+   ```bash
+   bun install  
+   ```
 
-## Deploy on Vercel
+3. **Run the app**:
+   ```bash
+   bun start 
+   ```
+4. Open `http://localhost:3000` in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage 📝
+1. Select a category (e.g., Transportation, Energy).
+2. Enter your usage details (e.g., miles driven, kWh consumed).
+3. Click "Calculate" to see your estimated carbon footprint.
+4. Explore personalized recommendations to reduce emissions.
+
+
+---
+
+## Contributing 🤝
+Contributions are welcome! Follow these steps:
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/your-feature`.
+3. Commit changes: `git commit -m "Add your message"`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Open a pull request.
+
+
+---
+
+## License 📄
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Acknowledgments 🙏
+- Emission factors sourced from [EPA](https://www.epa.gov/) or [ClimateWatch](https://www.climatewatchdata.org/).
+- Icons by [Material UI](https://mui.com/).
+- Inspired by [Climate Stewards](https://climatestewards.org/).
+
+---
+
+**Let’s build a greener future together!** 🌍💚
